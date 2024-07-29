@@ -30,6 +30,9 @@ return new class extends Migration
             $table->boolean('is_active')->default(1);
             $table->unsignedInteger('delivery_amount')->default(0);
             $table->unsignedInteger('delivery_amount_per_product')->nullable();
+        $table->boolean('is_active')->default(1);
+            $table->unsignedInteger('delivery_amount')->default(0);
+            $table->unsignedInteger('delivery_amount_per_product')->nullable();
 
 
             $table->string('name');
